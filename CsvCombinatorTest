@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac src/CsvCombinator.java
+java src/CsvCombinator.java src/csv/clothings.csv src/csv/household_cleaners.csv src/csv/accessories.csv > src/csv/combine.csv
+
